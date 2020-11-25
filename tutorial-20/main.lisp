@@ -1,4 +1,4 @@
-;;;; Tutorial 20: Gamepads and Joysticks
+;;;; Tutorial 20: Force Feedback
 
 (defpackage #:tutorial-20
   (:use #:cl)
@@ -50,7 +50,7 @@
     ))
 
 (defun main (&aux (path (namestring (asdf:system-relative-pathname :sdl2-tutorials "tutorial-20/assets/")))
-	       (title "Tutorial 20: Gamepads and Joysticks") (width 640) (height 480))
+	       (title "Tutorial 20: Force Feedback") (width 640) (height 480))
   ;; Prevent slime from hanging if crashing
   (sdl2:make-this-thread-main
    (lambda ()
