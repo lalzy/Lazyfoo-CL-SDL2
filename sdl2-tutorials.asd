@@ -24,4 +24,5 @@
 	       (:file "tutorial-17/main") ; Mouse Events
 	       (:file "tutorial-18/main") ; Key States
 	       (:file "tutorial-19/main") ; Gamepads and Joysticks
+	       (:file "tutorial-20/main") ; Gamepads and Joysticks
 	       )) 
