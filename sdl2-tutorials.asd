@@ -26,4 +26,5 @@
 	       (:file "tutorial-19/main") ; Gamepads and Joysticks
 	       (:file "tutorial-20/main") ; Force Feedback
 	       (:file "tutorial-21/main") ; Sound Effects and Music
+	       (:file "tutorial-22/main") ; Timing
 	       )) 
