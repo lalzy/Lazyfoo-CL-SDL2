@@ -4,7 +4,7 @@
   :description "Common Lisp adaption of Lazy-Foo's SDL2 tutorials"
   :author "Lalzy"
   :serial t
-  :depends-on (#:sdl2 #:iterate #:sdl2-image #:sdl2-ttf)
+  :depends-on (#:sdl2 #:iterate #:sdl2-image #:sdl2-ttf #:sdl2-mixer)
   :components ((:file "tutorial-01/main") ; Hello SDL
 	       (:file "tutorial-02/main") ; Getting an Image on the Screen
 	       (:file "tutorial-03/main") ; Event Driven Programming
@@ -25,4 +25,5 @@
 	       (:file "tutorial-18/main") ; Key States
 	       (:file "tutorial-19/main") ; Gamepads and Joysticks
 	       (:file "tutorial-20/main") ; Force Feedback
+	       (:file "tutorial-21/main") ; Sound Effects and Music
 	       )) 
